@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "react-native-online-shop",
+    "name": "Online Shop",
     "slug": "react-native-online-shop",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/places.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,6 +22,12 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
